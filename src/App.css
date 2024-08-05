@@ -1,0 +1,41 @@
+:root {
+    --color-background: hsl(240, 5%, 6%);
+    --color-foreground: hsl(60, 5%, 90%);
+    --color-primary: hsl(240, 0%, 90%);
+    --color-primary-foreground: hsl(60, 0%, 0%);
+    --color-secondary: hsl(240, 4%, 15%);
+    --color-secondary-foreground: hsl(60, 5%, 85%);
+    --color-accent: hsl(240, 0%, 13%);
+    --color-accent-foreground: hsl(60, 0%, 100%);
+    --color-muted: hsl(240, 5%, 25%);
+    --color-muted-foreground: hsl(60, 5%, 85%);
+    --color-card: hsl(240, 4%, 10%);
+    --color-card-foreground: hsl(60, 5%, 90%);
+    --color-destructive: hsl(0, 60%, 50%);
+    --color-destructive-foreground: hsl(0, 0%, 98%);
+    --color-popover: hsl(240, 5%, 15%);
+    --color-popover-foreground: hsl(60, 5%, 85%);
+    --color-border: hsl(240, 6%, 20%);
+    --color-input: hsl(240, 6%, 20%);
+  }
+  
+  .light-theme {
+    --color-background: hsl(0, 0%, 85%);
+    --color-foreground: hsl(0, 0%, 10%);
+    --color-primary: hsl(0, 0%, 80%);
+    --color-primary-foreground: hsl(0, 0%, 10%);
+    --color-secondary: hsl(0, 0%, 70%);
+    --color-secondary-foreground: hsl(0, 0%, 10%);
+    --color-accent: hsl(240, 100%, 50%);
+    --color-accent-foreground: hsl(0, 0%, 100%);
+    --color-muted: hsl(0, 0%, 75%);
+    --color-muted-foreground: hsl(0, 0%, 10%);
+    --color-card: hsl(0, 0%, 95%);
+    --color-card-foreground: hsl(0, 0%, 10%);
+    --color-destructive: hsl(0, 84%, 32%);
+    --color-destructive-foreground: hsl(0, 0%, 98%);
+    --color-popover: hsl(0, 0%, 100%);
+    --color-popover-foreground: hsl(240, 10%, 3.9%);
+    --color-border: hsl(0, 0%, 60%);
+    --color-input: hsl(0, 0%, 60%);
+  }
