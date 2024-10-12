@@ -16,7 +16,7 @@ function App() {
   }
 
   return (
-    <div className={`App font-mono ${theme} overflow-hidden w-screen`}>
+    <div className={`App font-mono ${theme} overflow-hidden`}>
       <LandingPage toggleTheme={toggleTheme}/>
     </div>
   );
