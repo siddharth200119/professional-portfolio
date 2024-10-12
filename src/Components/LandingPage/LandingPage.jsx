@@ -2,8 +2,10 @@ import React, { useState, useEffect } from "react";
 import Typewriter from 'typewriter-effect';
 import { motion, useAnimation } from 'framer-motion';
 import Navbar from "../Navbar/Navbar";
-import ProjectCard from "./ProjectCard/ProjectCard";
-import projects from "../../Data/projects";
+import experience from "../../Data/experience";
+import ExperienceCard from "./ExperienceCard";
+// import ProjectCard from "./ProjectCard/ProjectCard";
+// import projects from "../../Data/projects";
 
 function LandingPage(props){
     const controls = useAnimation();
@@ -54,7 +56,7 @@ function LandingPage(props){
     return(
         <div className="w-screen">
             <Navbar toggleTheme={toggleTheme} navbarOptions={navbarOptions}/>
-            <div id="about" className="flex flex-col md:flex-row w-screen max-h-screen min-h-screen bg-background text-foreground px-3 md:px-20 pt-40 md:py-0 md:items-center">
+            <div id="about" className="flex flex-col md:flex-row w-full max-h-screen min-h-screen bg-background text-foreground px-3 md:px-20 pt-40 md:py-0 md:items-center">
                 <div className="md:w-1/2 mb-10 md:px-32">
                     <div className="h-10 flex justify-start md:h-20 items-start w-full">
                         <motion.div
@@ -92,6 +94,14 @@ function LandingPage(props){
                     <div className="md:w-3/5 bg-card rounded-full overflow-hidden">
                         <img className="object-contain" src="/assets/images/intro.png"/>
                     </div>
+                </div>
+            </div>
+            <div id="experience" className="flex flex-col flex-wrap px-3 md:px-20 bg-secondary items-center justify-center">
+                <h1 className="text-foreground text-3xl md:text-5xl mt-5 mb-6 font-bold">EXPERIENCE</h1>
+                <div className="flex flex-col pb-4">
+                    {experience.map((work, i)=>{
+                        return(<ExperienceCard key={i} data={work} showLine={i+1 < experience.length}/>);
+                    })}
                 </div>
             </div>
             {/* <div id="projects" className="flex flex-col flex-wrap px-3 md:px-20 bg-secondary items-center justify-center">
