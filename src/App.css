@@ -17,6 +17,7 @@
     --color-popover-foreground: hsl(60, 5%, 85%);
     --color-border: hsl(240, 6%, 20%);
     --color-input: hsl(240, 6%, 20%);
+    --color-link: hsl(240, 94%, 80%);
   }
   
   .light-theme {
@@ -38,4 +39,5 @@
     --color-popover-foreground: hsl(240, 10%, 3.9%);
     --color-border: hsl(0, 0%, 60%);
     --color-input: hsl(0, 0%, 60%);
+    --color-link: hsl(240, 91%, 66%);
   }

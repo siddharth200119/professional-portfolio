@@ -29,6 +29,7 @@ module.exports = {
         'popover-foreground': 'var(--color-popover-foreground)',
         border: 'var(--color-border)',
         input: 'var(--color-input)',
+        link: 'var(--color-link)',
       },
     },
   },

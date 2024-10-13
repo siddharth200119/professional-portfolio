@@ -4,8 +4,8 @@ import { motion, useAnimation } from 'framer-motion';
 import Navbar from "../Navbar/Navbar";
 import experience from "../../Data/experience";
 import ExperienceCard from "./ExperienceCard";
-// import ProjectCard from "./ProjectCard/ProjectCard";
-// import projects from "../../Data/projects";
+import ProjectCard from "./ProjectCard/ProjectCard";
+import projects from "../../Data/projects";
 
 function LandingPage(props){
     const controls = useAnimation();
@@ -104,14 +104,14 @@ function LandingPage(props){
                     })}
                 </div>
             </div>
-            {/* <div id="projects" className="flex flex-col flex-wrap px-3 md:px-20 bg-secondary items-center justify-center">
-                <h1 className="text-foreground text-3xl md:text-6xl mt-5">MY PROJECTS</h1>
-                <div className="flex flex-row flex-wrap mt-10 md:mt-20 justify-center items-center">
+            <div id="projects" className="flex flex-col flex-wrap px-3 md:px-20 bg-background items-center justify-center">
+                <h1 className="text-foreground text-3xl md:text-5xl mt-5 mb-6 font-bold">MY PROJECTS</h1>
+                <div className="flex flex-row flex-wrap justify-center">
                     {projects.map((project, i)=>{
                         return(<ProjectCard key={i} project={project}/>)
                     })}
                 </div>
-            </div> */}
+            </div>
         </div>
     )
 }
