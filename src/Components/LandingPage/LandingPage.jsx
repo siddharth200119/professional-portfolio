@@ -62,7 +62,7 @@ function LandingPage(props){
                         <motion.div
                             id="introString"
                             className={`absolute z-10 bg-background top-0 left-0 md:text-4xl font-bold text-nowrap text-2xl flex justify-center items-center`}
-                            initial={{ opacity: 1, height: '100vh', width: '100vw' }}
+                            initial={{ opacity: 1, height: '100vh', width: '98vw', position: "fixed", top: "0", left: "0"}}
                             animate={controls}
                         >
                             <Typewriter
