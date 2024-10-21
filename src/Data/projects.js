@@ -9,7 +9,7 @@ const projects = [
     },
     {
         title: "Smart Gaze",
-        live_demo: "",
+        live_demo: "https://youtu.be/hoboyFEcPX8",
         desc: "A raspberry pi based smart mirror.",
         github: "https://github.com/siddharth200119/SmartGaze",
         img: "/assets/images/smart-gaze.jpg",
